@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanwat Infotech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/Empty/emptyCss.css">
+    <link rel="icon" href="/image/LogoR.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Empty/button-k.css">
+</head>
+
+<body>
+    <div class="headA">
+        <a href="tel:+919166644478">&#9742;:+919166644478</a> |
+        <a href="mailto:support@kanwatinfotech.com"
+            style="padding-right: 60px;">&#128231;:support@kanwatinfotech.com</a>
+    </div>
+    <div class=" header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand " href="#"><img src="/image/LogoB.png" alt="" width="40" height="40"></a>
+            <div class="hamburger " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="toggle ">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto editCS">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">BLOCKCHAIN DEVELOPMENT</a>
+                            <a class="dropdown-item" href="#">E-COMMERCE SOLUTION</a>
+                            <a class="dropdown-item" href="#">MOBILE APPLICATION DEVELOPMENT</a>
+                            <a class="dropdown-item" href="#">DOMAIN REGISTRATION</a>
+                            <!-- <a class="dropdown-item" href="#">MOBILE APPLICATION DEVELOPMENT</a> -->
+                            <a class="dropdown-item" href="#">WEB DEVELOPMENT AND DESIGNING</a>
+                            <a class="dropdown-item" href="#">BUSINESS INTELLIGENCE SOFTWARE</a>
+                            <a class="dropdown-item" href="#">INTERNET OF THINGS (IOT)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactUs">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section id="home" class="hero-section" style="padding: 0px; width: 100%; margin: 0px 0px;">
+        <div class="slider-container">
+            <div class="slides">
+                <div class="slide"><img src="/image/slide1.png" alt="Image 1"></div>
+                <div class="slide"><img src="/image/slide2.png" alt="Image 2"></div>
+                <div class="slide"><img src="/image/slide3.png" alt="Image 3"></div>
+            </div>
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+    </section>
+    <!-- <div class="container-workImg">
+        <div class="conInfo">"Empowering innovation with cutting-edge software solutions." <br>We offer personal touch
+            to all of our customers. </div>
+        <div class="conIN">
+            <div style="line-height:1 ; text-align: left;">
+                Innovation <br> With <br> Love
+            </div>
+        </div>
+        <img src="/image/Working.jpg" alt="work">
+        <button class="btn">Read More</button>
+    </div> -->
+    <div class="toolimg">
+        <h2 class="h-size">Who We Are</h2>
+        <hr style="width: 50%; height: 5px; background-color: orange; border: none; border-radius: 50%;">
+        <div class="toolimgM">
+            <div class="toolimg2">
+                <img src="/image/blockchain.png" alt="imgT2" class="reveal-image">
+            </div>
+            <div class="toolimg3">
+                <img src="/image/gear3.png" alt="imgT3" class="reveal-image">
+            </div>
+            <div class="toolimg1">
+                <img src="/image/training1.png" alt="imgT1" class="reveal-image">
+            </div>
+        </div>
+        <div class="tool-text">
+            <div class="fade-up" id="fadeElement">Kanwat Infotech is a custom software development company. <br>We
+                provide full-cycle software development service encompassing requirements definition, application
+                design,<br> development, and deployment as well as software support and upgrade. <br> At our
+                software company, we specialize in blockchain
+                solutions,<br> automation, custom software development,<br> and comprehensive training programs to
+                empower your business with cutting-edge technology.
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <hr style="width: 50%; height: 5px; background-color: orange; border: none; border-radius: 50%;">
+
+        <p>We are a leading software product company dedicated to delivering top-notch solutions to our clients.</p>
+    </section> -->
+    <section id="services" class="services-section">
+        <h1 class="h-size">TECHNOLOGIES</h1>
+        <hr style="width: 50%; height: 5px; background-color: orange; border: none; border-radius: 50%;">
+        <br><br><br>
+        <div class="flipRaw">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/image/PHP-SQL.png" alt="">
+                        <p>PHP/ MySQL</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/image/net mvc.png" alt="">
+                        <p>.NET MVC</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/image/app development.png" alt="">
+                        <p>App Development</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/image/JAVAA.png" alt="">
+                        <p>Java/ JavaFX</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div><br><br>
+        <div class="flipRaw">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/image/node js.png" alt="">
+                        <p>Node JS</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/image/ui design.png" alt="">
+                        <p>UX/ UI Design</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/image/open source.png" alt="">
+                        <p>Open Sources</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="/image/Blockchain1.png" alt="">
+                        <p>Blockchain</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="products" class="products-section">
+        <h1 class="h-size">OUR PRODUCTS</h1>
+        <hr style="width: 50%; height: 5px; background-color: orange; border: none; border-radius: 50%;"><br><br><br>
+        <div class="flipRaw">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p class="title">Hospital Management System</p>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p class="title">School Management System</p>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p class="title">File Tracking System</p>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p class="title">Logic Gates Simulator</p>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="title">Kanwant Infotech</p>
+                        <p>Leave Me</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="butn">Read More</button>
+    </section>
+    <section id="training" class="training-section">
+        <h2>Training Programs</h2>
+        <p>We offer comprehensive training programs to help you get the most out of our products.</p>
+    </section>
+    <section id="career" class="career-section">
+        <h2>Creer Opportunities</h2>
+        <p>Join our team and help us build the future of software solutions.</p>
+    </section>
+    <section class="advice-section">
+        <div class="advice-co-container">
+            <h3 style="color: white; text-align: left;">Advice Or Immediate Help?</h3>
+            <p style="font-size: medium; text-align: left;">Connect with us for quick replies and immediate query
+                concerns. Our qualified executives will get in touch quickest possible, while in need of instant
+                reverts, call us anytime on</p>
+            <div class="raw-advice">
+                <div class="col-advice">
+                    <img style="text-align: left;" src="/image/sir2.jpg" alt="sir">
+                </div>
+                <div class="col-advice">
+                    <a href="tel:+919875122555" style="color: white;  text-decoration: none;">
+                        <h3>+91-9875122555</h3>
+                    </a>
+                Need help? Call Us
+                </div>
+            </div>
+            <hr>
+            Kanwat Infotech did a fantastic job from the start. They planned the project execution very well and are very proficient technically, communicate effectively and are focused on customer satisfaction
+            <br><br>
+            Dr. K.L. Meena PMO <br>
+            Gov. BDM Hospital
+
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="row">
+            <div class="column-s">
+                <div class="hover-text">
+                    <h2 style="color: rgba(71,27,63,255);"> Our Services </h2>
+                    <a href="#services">Blockchain Development</a><br><br>
+                    <a href="#services">E-Commerce Solutions</a><br><br>
+                    <a href="#services">Mobile Application Development</a><br><br>
+                    <a href="#services">Web Development And Designing</a><br><br>
+                    <a href="#services">Business Intelligence Software</a><br><br>
+                    <a href="#services">Internet Of Things (IOT)</a><br><br>
+                    <a href="#services">Domain Registration</a><br><br>
+                </div>
+            </div>
+            <div class="column-s hover-text">
+                <h2 style="color: rgba(71,27,63,255);"> Get In Touch </h2>
+                <b>Jaipur Office :</b> C-9/30 Flat No F2, Chitrakoot Marg, Vaishali Nagar, Jaipur, Rajasthan, Pin Code :
+                302021 <br><br>
+                <b>Kotputli Office :</b> Kanwat Bhawan, Balaji Road, Near Shiv Shakti Mandir & Soldiers School,
+                Kotputli, Rajasthan, Pin Code : 303108 <br><br>
+                <b>MobileNo :</b> <a href="tel:+91-9799947029">+91-9799947029</a>,<a href="tel:+91-9875122555">
+                    +91-9875122555</a> <br><br>
+                <b>Email :</b> <a href="mailto:support@kanwatinfotech.com">support@kanwatinfotech.com</a>
+            </div>
+        </div>
+        <div id="contactUs" class="container-Contact">
+            <h1>Contact Us</h1>
+            <form id="contactForm" action="#" method="post">
+                <div class="inputGroup">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="captcha">
+                    <label for="captcha">Enter the text below:</label><br>
+                    <canvas id="captchaCanvas" width="200" height="50"></canvas><br>
+                    <input type="text" id="captchaInput" name="captcha" required><br>
+                    <button type="button" onclick="generateCaptcha()">Refresh</button>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <div>
+        <svg class="backA" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#471b3f" fill-opacity="1"
+                d="M0,128L48,122.7C96,117,192,107,288,133.3C384,160,480,224,576,213.3C672,203,768,117,864,112C960,107,1056,181,1152,224C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <footer class="footer">
+            <p>&copy; 2024 Kanwat Infotech. All rights reserved.</p>
+        </footer>
+    </div>
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><svg class="svgIcon" viewBox="0 0 384 512">
+            <path
+                d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5
+                 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z">
+            </path>
+        </svg>
+    </button>
+
+    <script src="/Empty/empty.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
